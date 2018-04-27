@@ -1,4 +1,6 @@
-In this unit, along with any other at university, there are a set of important expectations that will help you and your peers to get the most out of your learning experiences.  
+# Learning expectations
+
+## In this unit, along with any other at university, there are a set of important expectations that will help you and your peers to get the most out of your learning experiences.  
 
 These  are not necessarily formal rights or responsibilities, but if you don't put them into practice you will really be letting yourself (and potential others) down.
 
