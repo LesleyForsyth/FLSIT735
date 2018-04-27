@@ -1,6 +1,6 @@
 In this unit, along with any other at university, there are a set of important expectations that will help you and your peers to get the most out of your learning experiences.  
 
-These expectations are not all formal rights or responsibilities, however if you don’t you follow them you will be letting yourself and potentially others down.  
+These  are not necessarily formal rights or responsibilities, but if you don't put them into practice you will really be letting yourself (and potential others) down.
 
 They go both ways. Just as your educators have expectations of you as a learner, there are some expectations that you can reasonably have of your educators.
 
@@ -10,11 +10,15 @@ You should participate in the discussions in each steps throughout the unit. Eac
 
 Your fellow learners are one of the best resources you have as a learner. The FutureLearn platform has been designed to facilitate social learning. This means more than just learning from each other – it means that you have a responsibility to help create a safe, compassionate and constructive community to develop, share and challenge your ideas.  
 
-Your required readings have been paired back to allow you to have more time to build this community, so it’s vital to participate in it for you and your peers to get the most out of the unit.  
-
-You can expect Yamini and other educators to participate in these discussions from time to time. If you have a question about the course, including things like assessments or seminar times, raise them with your peers before raising it with her directly.  
+You can expect Rolando and Vikrant to participate in these discussions from time to time. If you have a question about the course, including things like assessments or seminar times, raise them with your peers before raising it with her directly.  
 
 If you have the same question as another student, like that response to help bring it to the teaching team's attention.
+
+Most importantly, in all your interactions, ensure that you follow the 3Cs:
+
+* **Curious** – ask questions, seek clarification, be open to others’ differences
+* **Constructive** – build on other learners’ ideas, arguments or experiences
+* **Compassionate** – be kind and respectful towards others.
 
 ### Online seminars
 
@@ -49,7 +53,7 @@ You are expected to:
 * complete assessment on time, or to communicate with your educators as soon as you have reason to believe you may not be able to
 * complete assessment individually or with group members only.  While it is fine to speak to fellow learners, friends and family about your ideas, it’s expected that your assessment will be unique and completed by you or your group alone.  See [Deakin University’s guidelines on academic integrity](https://www.deakin.edu.au/students/studying/academic-integrity) for further information.
 
-Visit the [program page](https://www.futurelearn.com/your-programs/introduction-to-international-and-community-development/1/assessments) for an overview of your assessment tasks.
+Visit the [program page](#) for an overview of your assessment tasks.
  
 ### Your task
 
@@ -59,4 +63,3 @@ What can you, your peers and your educators do to help you have the best learnin
 
 Share your experiences in the comments.
 
-__ADS701 links:__ | [Program page](https://www.futurelearn.com/your-programs/introduction-to-international-and-community-development/1) | [Required readings](https://deakin.rl.talis.com/lists/769ECF1E-E198-099C-DC27-6BCAB954FB82.html#item-9FC2FF05-0171-E571-4662-0F50D6389786) | [Recommended readings](https://deakin.rl.talis.com/lists/C830B9B2-0144-9C5B-BBD3-24164FD69A47.html)
