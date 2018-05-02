@@ -16,6 +16,9 @@ It is probably a good time to define *cryptography* as a process whereby a plain
 
 To fully understand what we mean by an encryption and decryption algorithm we ought to relay on mathematics. Let $m$ be a message encoded in a binary alphabet $\{0, 1\}$, as the one used by current computers. Let $k$ be a text encoded in the same binary alphabet. An encryption algorithm is a function $f(m, k)$ that, on input a message $m$ and a key $k$, gives an *encrypted message* $m'$. The corresponding decryption algorithm is defined in a similar way, as a function $f^{-1}(m, k)$ that, on input an encrypted message $m'$ and a key $k$, gives the *original message* $m$. We can make even more precise the intended property by requiring that $f^{-1}(f(m, k), k) = m$, that is, a message $m$ encrypted with a key $k$ can be always decrypted by using the same key $k$.
 
+![GitHub Logo](/images/encryption-model.jpg)
+Format: ![Alt Text](url)
+
 ## Your task. 
 
 Your task is to find out what's the key in the Caesar chipher. Then you will choose another key and use it to encrypt the following message: ``Hello, I'm X'' where X is replaced by your name. Finally, publish the encrypted message via the chat window. 
