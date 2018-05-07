@@ -16,5 +16,12 @@ For a graphical representation of the sort of scramble that occurs within AES, l
 <!--- (source: https://upload.wikimedia.org/wikipedia/commons/c/cd/SubstitutionPermutationNetwork2.png) -->
  
 
-## Key length 
+## Your task
 
+In this task you will be allowed to play with the popular tool *cryptool*. You can download this tool from https://www.cryptool.org/en/ and get a quick tutorial at https://www.youtube.com/watch?v=giP7-ruVFEY.
+
+Now, I'm going to give you a key and you will use it to send your name, as usual through the FutureLearn chat window, encrypted in AES-128. I encourage you to decrypt messages sent by your colleagues and comment whether you managed to do so successfully. 
+
+They key is the following: 4e 65 74 77 6f 72 6b 20 53 65 63 75 72 69 74 79
+
+Finally, you may notice that the key is given in Hexadecimal. But I can assure you that it is not random key, but a conversion of a few words to Hexadecimal. Can you spot what are the words hidden behind such Hexadecimal representation?
