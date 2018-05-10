@@ -1,27 +1,22 @@
-# AES
+# Security between strangers
 
-The insecurity of DES, mainly due to a short key size, led NIST (National Institute of Standards and Technology) to open a public competition for the successor to DES in January 1997.  The criteria used to evaluate a cipher  included not only cryptographic strength or unbreakability, but also ease of implementation and performance in software and hardware. The winner was *the Rijndael cipher*, designed by two Belgian cryptograhers Joan Daemen and Vincent Rijmen in October 2000. 
+Because you have made already several attempts to send a confidential message between yourselves through a public channel, such as the FutureLearn chat window, I'm confident that you have been facing the same challenge that cryptographers were addressing for years until the late 1970's. That is, I know various strong ciphers and have tools available that can encrypt and decrypt messages given the correct key, but, how can I agree on a secret key with a total stranger?
 
-The Rijndael cipher was formally standarised in November 2001, taking the name of AES (Advanced Encryption Standard). AES is the symmetric cipher of choice for the majority of applications today. AES is even used for keeping secret classified information of the U.S. government.
+Chances are the you were unable to agree with any of your colleagues on a secret key, unless you used a private communication channel, not the FutureLearn chat window. That's actually the limitation of *symmetric* cryptography, which relies on the fact that the two participants engaging in private communication know the same secret key. In this step we are going to look at a totally different approach, which has revolutionised the way we perform secure communication to the present day. 
 
-## What does make AES stronger than DES? 
+## Asymmetric cryptography 
 
-The short answer is a larger key size. AES accepts keys of size 128, 192 and 256 bits. Exhaustive search over a key space of size $2^{128}$ is already prohibitive expensive. Fifty supercomputers able to check a billion billion ($10^{18}$) AES keys per second would be capable of checking around $10^{27}$ keys per year. Therefore, it would require around $10^{12}$ years to exhaust the 128-bit AES key space. Whilst DES would be broken in $0.03$ seconds by the same computer configuration. 
+The concept of asymmetric cryptography has no trivial analogy to daily-life applications. But we will do our best to explain it first in an intuitive way and later give it in a more formal explanation. 
 
-AES benefited from 25 years of insights and research on DES. Thus its keys are not only larger, but the cipher itself is stronger to differential and linear cryptanalysis than DES. In a nutshell, cryptanalysis techniques look for clever tricks to break a crypto system without exploring the whole key space, and we encourage you to attend a crypto course to gain more knowledge on cryptoanalysis. 
+Imagine you have a lockable box with a groove, such as a mailbox. Only you have the key to lock an unlock such a box, so you make the box available for others to drop a message inside, again, same principle of mailboxes. People don't need to have a key to drop you a personal and confidential message. And because you and only you have the correct key, all messages within the box are secured from curious neighbours. 
 
-For a graphical representation of the sort of scramble that occurs within AES, look at figure below. Again, cryptographic design and cryptoanalysis is a vast area in itself, so we kindly refer you to a course in cryptography for more details.
+![GitHub Logo](./images/mailbox-keys.jpg)
+<!--- (source: http://en.kryptotel.net/encryption.html) -->
 
-![GitHub Logo](./images/AES.png)
-<!--- (source: https://upload.wikimedia.org/wikipedia/commons/c/cd/SubstitutionPermutationNetwork2.png) -->
- 
+Asymmetric cryptography works in a similar way to the example above. Instead of a single shared key, asymmetric cryptography relies on two keys. One is called *the public key* and the other one *the private key*. As the name suggests the private key is personal and should be kept secret, while the public key can be given to anyone. Messages encrypted with the public key can only be decrypted with the correct private key. Thus anyone, friends or foe, can send you an encrypted and confidential message by simply using your public key. This is remarkable feature! It is like being able to distribute as many mailboxes as we whish and to anyone.
+
+Formally, an public-key (or asymmetric) cryptosystem consists of a key pair $(pk, sk)$ where $pk$ is a public key and $sk$ is a secret key, an encryption algorithm $enc$, and a decryption algorithm $dec$. The main functional requirement of a public-key cryptosystem is as follows: $dec(enc(m, pk), sk)$ where $m$ is a message. That is to say, any message $m$ encrypted with the public key can be decrypted with the corresponding private key. 
 
 ## Your task
 
-In this task you will be allowed to play with the popular tool *cryptool*. You can download this tool from https://www.cryptool.org/en/ and get a quick tutorial at https://www.youtube.com/watch?v=giP7-ruVFEY.
-
-Now, I'm going to give you a key and you will use it to send your name, as usual through the FutureLearn chat window, encrypted in AES-128. I encourage you to decrypt messages sent by your colleagues and comment whether you managed to do so successfully. 
-
-They key is the following: 4e 65 74 77 6f 72 6b 20 53 65 63 75 72 69 74 79
-
-Finally, you may notice that the key is given in Hexadecimal. But I can assure you that it is not random key, but a conversion of a few words to Hexadecimal. Can you spot what are the words hidden behind such Hexadecimal representation?
+A quick way to generate a pair of public and private key is by using PuttyGen: https://www.putty.org/. If you haven't done so already, try to generate a pair of RSA keys with PuttyGen. Those who already have used PuttyGen, please, comment why for. 

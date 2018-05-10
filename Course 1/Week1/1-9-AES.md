@@ -15,6 +15,9 @@ For a graphical representation of the sort of scramble that occurs within AES, l
 ![GitHub Logo](./images/AES.png)
 <!--- (source: https://upload.wikimedia.org/wikipedia/commons/c/cd/SubstitutionPermutationNetwork2.png) -->
  
+## A note on block ciphers
+
+Ciphers like DES and AES are called *block* ciphers because they encrypt the data in blocks or chunks. DES, for example, uses blocks of 64 bits, whilst AES uses 128 bit blocks. This means that, prior encryption, the message needs to be partitioned in blocks of a given size. Other type of ciphers can encrypt information symbol by symbol, such as the Caesar cipher. The latter type of cipher are known by *stream ciphers*. 
 
 ## Your task
 
