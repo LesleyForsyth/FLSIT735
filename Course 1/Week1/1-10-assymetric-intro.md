@@ -6,7 +6,9 @@ Chances are the you were unable to agree with any of your colleagues on a secret
 
 ## Asymmetric cryptography 
 
-The concept of asymmetric cryptography has no trivial analogy to daily-life applications. But we will do our best to explain it first in an intuitive way and later give it in a more formal explanation. 
+Whitfield Diffie and Martin Hellman won the 2015 Turing Award, considered the most prestigious award in the field of computer science, for introducing the idea of asymmetric public-key cryptography back in 1976. The concept of asymmetric cryptography has no trivial analogy to daily-life applications. But we will do our best to explain it first in an intuitive way and later give it in a more formal explanation. 
+who published this concept in 1976. 
+
 
 Imagine you have a lockable box with a groove, such as a mailbox. Only you have the key to lock an unlock such a box, so you make the box available for others to drop a message inside, again, same principle of mailboxes. People don't need to have a key to drop you a personal and confidential message. And because you and only you have the correct key, all messages within the box are secured from curious neighbours. 
 
