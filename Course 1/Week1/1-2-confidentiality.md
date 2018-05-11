@@ -1,10 +1,19 @@
-# Confidentiality
+# Data breach 
 
-Let us start this course with a definition of network security. Network security is the method in which an individual or organisation secures their network from possible attacks. Network security is actually a fundamental part of Information security, devoted to the protection of data and information systems against unauthorised or unintended access that can result in the loss, damage, modification and degrade of the information. 
+It is May 2014. News were spread that a cyberattack exposed names, addresses, dates of birth and encrypted passwords of 145 million Ebay users. The attackers started the attack by first compromising the credentials of three corporate employees, then making their way to the user database. The company said that financial information, such as credit card numbers, was stored separately and was not compromised. 
 
-As a security expert, you will hear often the initials CIA, hopefully in reference to Confidentiality, Integrity, and Availability. The history of humanity is full of clever tricks to enforce those properties in communication exchanges, specially during war. In a nutshell, confidentiality ensures that information is unaccessible to unauthorised parties, integrity that data is an accurate representation of the original secure information, and availability that information is accessible for those authorised.
+More recently, in 2016, RxAmerica and Accendo Insurance Company informed that personal information of 175,000 members may have been unintentionally exposed. The breach was caused by a change of the mail format, allowing lines of text to become visible.
+The letters included the member’s name, drug name and date of birth.
 
-There is no need to memorise those three concepts by heart. They will emerge naturally as functional and security requirements of the security solutions we are going to study in this course. 
+These are just two examples of a confidential information being leaked. For a  comprehensive list of data breach scandals refer to https://en.wikipedia.org/wiki/List_of_data_breaches.
+
+## Confidentiality
+
+When we talk about confidentiality of information, we are talking about making sure that information is unaccessible to unauthorised parties. 
+
+Information has value. By taking a quick look at the Facebook–Cambridge Analytica data scandal, it becomes clear that many company business models are data driven. On the other hand, the existence of sensitive information such as bank account statements, personal information, credit card numbers, trade secrets, and government documents, make confidentiality an obvious security goal. 
+
+The good news is that there exists a plethora of cryptographic algorithms based on mathematical theory and computer science that, when used correctly, can protect information confidentiality. We will devote this week to the introduction of cryptography and how it can be used to send confidential information through an insecure network. 
 
 ## Your task.
 
