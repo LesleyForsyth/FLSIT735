@@ -17,7 +17,7 @@ The good news is that there exists a plethora of cryptographic algorithms based 
 
 ## Your task.
 
-Your task is to use the chat window to send a confidential message to one of our colleagues. No other communication mean is allowed, except the FutureLearn chat window. Recall that confidentiality means that the message should remain secret for all, but the intended recipient. Be creative!
+Your task is to use the chat window to send a confidential message to one of your colleagues. No other communication mean is allowed, except the FutureLearn chat window. Recall that confidentiality means that the message should remain secret for all, but the intended recipient. Be creative!
 
 Something you will notice while this course advances, is that this very first challenge we are assigning to you is indeed fairly close to real-life challenges faced by security solutions. 
 
