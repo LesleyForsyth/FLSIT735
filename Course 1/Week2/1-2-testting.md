@@ -1,41 +1,43 @@
-# Knowing the Enemy
+# Network Architecture of the Internet
 
-Every person can potentially hack or compromise your data. Before computers, the more sophisticated hacking machine is due to Prof. Alan Turing, who broke the Enigma machine. With the emergence of computer 
-networks, a computer addicted with no permanent girlfriend became the most common profile of a hacker. Today, almost anyone can infect thousands of computers thanks to a long list of simple-to-use hacking tools that are publicly available.
+Network architecture is a coceptual model that uses set of communication protocols for communication over the internet and simillar computer networks. What happens if everyone follows their own rules to communicate over the internet?
 
-## Threat actors
+## OSI network model
+The Open Systems Interconnection model (OSI model) is a conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology. Its goal is the interoperability of diverse communication systems with standard protocols. There are sevel abstraction layers in the OSI network model. Each layer serves layer above it and is served by the layer below it.
 
-When looking at the security landscape of any organisation, or even at your private network at home, it is useful to know who wants to harm you, why for, and how. Typically, security experts categorise attackers depending on the attacker's motivation, resources, and knowledge about an organisation. The most important of those categories are the following. 
-
-* **Government Sponsored**: This is formed by highly skilled security professionals with the time and resources necessary to perform sophisticated and targeted attacks. Government sponsored attacks will be typically driven by political, economic or military interests. 
-
-* **Organised Crime**: This type of attacker will look for credentials than can be used to steal credit or hijack critical digital resources that can be exchanged for a ransom. 
-
-* **Hacktivists**: Hacktivists aim for attacks with large impact in media and are normally driven by a political agenda. 
-
-* **Insider Threat**: Disgruntled employees or ex-employees that look for financial gain or revenge. What makes this threat actor particularly dangerous is its knowledge and access to the physical and digital facilities of an organisation. 
-
-* **Opportunistic**: Attackers driven by the desire for notoriety. 
+![GitHub Logo](./images/OSI_Layers.gif)
+<!--- (source: http://rismanabila20.blogspot.com.au/2016/09/) -->
 
 
-## Attack mechanisms
+* **Layer 1 Pysical Layer**: It represents a relationship between a device and a physical transmission medium such as electrical cable, an optical fibre cable or radio frequancy link etc.
 
-Another way to look at cyber security threats within an organisation is by charaterising the most basic type of attacks. 
+* **Layer 2 Data Link Layer**: It is responsible for error control and flow control services. Example of data link layer protocols are Point-to-Point Protocol(PPP), SBTV, SLIP etc.
 
-* **Eavesdropping**: Eavesdropping is the most basic and primitive capability an attacker uses. In network communication, this consists in intercepting data from network traffic. 
-* **Cryptanalysis**:  The art of breaking cryptography. All security protocols rely on cryptography. If cryptography fails, the whole system fails as well. 
-* **Password pilfering**: The most widely user aunthentication mechanism in use is based on a user identifier and a password. However, humans have proven notoriously bad at choosing and managing passwords. Thus is often easy for an attackers to guess or social engineer a password. 
-* **Man-in-the-middle**: Similarly to eavesdropping, a man-in-the-middle attack can intercept network traffic. In addition, this attack blocks, modifies, and injects data in the network. 
-* **Software exploitation**: Many security attacks nowadays start with a software vulnerability that has been found and exploited. 
-* **Malicious software**: Known malware, this type of software is designed to harm computers and to be executed silently, without the user's awareness. 
-* **Denial of service**: A denial of service attack aims at shutting down a particular service. 
+* **Layer 3 Network Layer**: It is responsible for routing of the information via its addressing scheme. Examples of network layer protocols are IP, IPsec, ICMP, IGMP, OSPF, RIP etc. 
 
-It is worth remarking that attack types can be combined, in the same way that different threat actors may collaborate.
+* **Layer 4 Transport Layer**: It is responsible for reliable message transfer over the Internet. It also take care of flow control of packets and known as a connection-oriented protocols. TCP is an example of Transport Layer protocol. Examples of transport layer protocols are TCP, UDP, SCTP, DCCP etc.
 
-## Our concern in this unit
+* **Layer 5 Session Layer**: It controls the connections between computers. Examples of session layer protocols are TCP, RTP , PPTP etc.
 
-This unit focuses on counteracting man-in-the-middle attacks, which is the most powerful attack a communication protocol running in a computer network faces. Although it may seem little at first glance, we will see throughout this unit that man-in-the-middle attacks have driven the development of the majority of network protocols we use nowadays. We encourage the student to continue their formation in Cyber security by mastering other aspect of Cyber security that are not covered here. 
+* **Layer 6 Presentation Layer**: The presentation layer transforms data into the form that the application accepts. Examples of presentation layer protocols are MIME, SSL, TLS, XDR etc.
 
+* **Layer 7 Application Layer**: The application layer is the OSI layer closest to the end user, which means both the OSI application layer and the user interact directly with the software application.
+
+
+
+## TCP/IP protocol suite
+
+It is commonly known as TCP/IP because the foundational protocols in the suite are the Transmission Control Protocol (TCP) and the Internet Protocol (IP). It consists of mainly four layers such as Data Link Layer, Network Layer, Transport Layer and Application Layer.
+
+
+
+![GitHub Logo](./images/TCP-IP_stack.png)
+<!--- (source: 
+https://en.wikipedia.org/wiki/Internet_protocol_suite#/media/File:IP_stack_connections.svg -->
+
+
+## Think questions
+After exploring OSI network model and TCP/IP protocol suit, Layered abstraction helps to increase the security in our networks? If yes then how? If no then, what can we do to optimise the security of the overall network. Do we need a new network protocol suit which outperforms the existing TCP/IP protocol suit? or TCP/IP is the ultimate solution for the future?
 
 
 
