@@ -1,40 +1,35 @@
-# Knowing the Enemy
+# Network Architecture : A key component of Cyber Security
 
-Every person can potentially hack or compromise your data. Before computers, the more sophisticated hacking machine is due to Prof. Alan Turing, who broke the Enigma machine. With the emergence of computer 
-networks, a computer addicted with no permanent girlfriend became the most common profile of a hacker. Today, almost anyone can infect thousands of computers thanks to a long list of simple-to-use hacking tools that are publicly available.
+Before we deep dive into cyber security and its communication protocols, it is important to understand how the network is formed and how communication takes place into the network. Knowledge about the Network Architecture is crutial to understand how it can be used to break the privacy of our data. In this chapter, we willl find out several interesting facts about Network Architecture. Lets start with the first question.
 
-## Threat actors
+* **What is the role of Network Architecture in the Cyber Security:** The answer of this question lies in the history of Network Architecture.
 
-When looking at the security landscape of any organisation, or even at your private network at home, it is useful to know who wants to harm you, why for, and how. Typically, security experts categorise attackers depending on the attacker's motivation, resources, and knowledge about an organisation. The most important of those categories are the following. 
+* **What is a Network Architecture**
 
-* **Government Sponsored**: This is formed by highly skilled security professionals with the time and resources necessary to perform sophisticated and targeted attacks. Government sponsored attacks will be typically driven by political, economic or military interests. 
+* **How Network Architecture works**
 
-* **Organised Crime**: This type of attacker will look for credentials than can be used to steal credit or hijack critical digital resources that can be exchanged for a ransom. 
-
-* **Hacktivists**: Hacktivists aim for attacks with large impact in media and are normally driven by a political agenda. 
-
-* **Insider Threat**: Disgruntled employees or ex-employees that look for financial gain or revenge. What makes this threat actor particularly dangerous is its knowledge and access to the physical and digital facilities of an organisation. 
-
-* **Opportunistic**: Attackers driven by the desire for notoriety. 
+* **Network Architecture and its impact on Cyber Security**
 
 
-## Attack mechanisms
+## History of the Network Architecture
 
-Another way to look at cyber security threats within an organisation is by charaterising the most basic type of attacks. 
+* **1950s**: Development of electronic computers begin. 
 
-* **Eavesdropping**: Eavesdropping is the most basic and primitive capability an attacker uses. In network communication, this consists in intercepting data from network traffic. 
-* **Cryptanalysis**:  The art of breaking cryptography. All security protocols rely on cryptography. If cryptography fails, the whole system fails as well. 
-* **Password pilfering**: The most widely user aunthentication mechanism in use is based on a user identifier and a password. However, humans have proven notoriously bad at choosing and managing passwords. Thus is often easy for an attackers to guess or social engineer a password. 
-* **Man-in-the-middle**: Similarly to eavesdropping, a man-in-the-middle attack can intercept network traffic. In addition, this attack blocks, modifies, and injects data in the network. 
-* **Software exploitation**: Many security attacks nowadays start with a software vulnerability that has been found and exploited. 
-* **Malicious software**: Known malware, this type of software is designed to harm computers and to be executed silently, without the user's awareness. 
-* **Denial of service**: A denial of service attack aims at shutting down a particular service. 
+* **1960s**: Development of ARPANET (Advanced Research Projects Agency Network) project funded by United States Department of Defense. In 1969, first message was sent over the ARPANET from University of California, Los Angeles (UCLA) to Stanford Research Institute(SRI). 
 
-It is worth remarking that attack types can be combined, in the same way that different threat actors may collaborate.
+* **1970s**: Era of various Packet switching networks such as NPL network, ARPANET, Tymnet, Merit Network, CYCLADES and Telenet. In 1967, Donald Davis demonstrated the first packet switching at the National Physical Laboratory(NPL), UK. ARPANET project led to the need of the development of the protocols for internetworking which resulted into the development of Internet protocol suite known as TCP/IP.
+
+* **1980s**: In 1986, NSF funded several universities to develop national supercomputing centers and provided interconnectivity with NSFNET(National Science Foundation Networks) project. Commercial ISPs(Internet Service Providers) started participating in the late 1980s. In addition, Tim Berners-Lee invented World Wide Web(WWW) which links hyper text document to the Information systems such a way that it can be accessible from anywhere in the world.
+
+* **1990s**: Invention of electronic mail, instant messaging, VoIP telephone calls, Video calls and World Wide Web has resulted into unbelievable growth of the internet after mid 1990s. In addition, Fiber optic technology has supported the rapid growth of two way data transfer rate over the internet.
+
+## Think questions
+
+Its been almost 70 years now, since the journey of Internet(Packet switching to TCP/IP protocol suite) started in 1950s. It is worth to think what would be the scenario after 70 years from now. Are we ready for the future? What kind of challenges we may face next? How can we contribute to the development of the new world? What could be the extension of the Internet?  
 
 ## Our concern in this unit
 
-This unit focuses on counteracting man-in-the-middle attacks, which is the most powerful attack a communication protocol running in a computer network faces. Although it may seem little at first glance, we will see throughout this unit that man-in-the-middle attacks have driven the development of the majority of network protocols we use nowadays. We encourage the student to continue their formation in Cyber security by mastering other aspect of Cyber security that are not covered here. 
+This unit focuses on various cyber security attacks which affects communication protocols running in a computer network faces. Although it may seem little at first glance, we will see throughout this unit that man-in-the-middle attacks have driven the development of the majority of network protocols we use nowadays. We encourage the student to continue their formation in Cyber security by mastering other aspect of Cyber security that are not covered here. 
 
 
 
