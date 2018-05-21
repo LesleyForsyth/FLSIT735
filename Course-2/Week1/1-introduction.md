@@ -12,9 +12,7 @@ Clearly most of the bike was lost by an incorrect use of a (supposedly secure) l
 Another example. Suppose that I'm worried about my favorite student Paul, who is having health issues. Paul has a pair of asymmetric cryptographic keys $(pk_{paul}, sk_{paul})$. I have my own pair of keys as well $(pk_{Prof}, sk_{Prof})$. Then I write the following message to Paul.
 
 * m = "Dear Paul, it's me, your Professor of Communications Network Security. Would you please tell me the nature of the health issue you are having at the moment. Because this is super sensitive information and we want no one to know about it, I'm sending herein my public key, which you can use to encrypt your reply and be confident that only me can decrypt your message. My public is $pk_{Prof}$".  
-* Of course, I encrypt this message with the public key; no one needs to know that Paul is having health issues. So I send to Paul the encrypted message $enc(m, pk_{Paul})$.
-* Because Paul knows the corresponding secret key, he can recover the original message $m = dec(enc(m, pk_{Paul}), sk_{Paul})$. 
-* Then he write me a message $m'$ explaining his health problems, encrypt it with the public key $pk_{Prof}$ contained in $m$, and the send $enc(m', pk_{Prof})$ back to me.
+* Once Paul receive the message $m$, he writes back a message $m'$ explaining his health problems, encrypt it with the public key $pk_{Prof}$ contained in $m$, and the send $enc(m', pk_{Prof})$ back to me.
 * Finally, I received Paul's response $enc(m', pk_{Prof})$, which I can decrypt by using my own secret key $sk_{Prof}$. 
 
 ## Your task
