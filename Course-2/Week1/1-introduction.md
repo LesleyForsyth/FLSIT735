@@ -17,7 +17,7 @@ Another example. Suppose that I'm worried about my favorite student Paul, who is
 
 ## Your task
 
-Do you see the flaw in this example? If so, well done! You are already a good analyst of security protocols and my request for you is that you share the founded flaw with your colleagues. If not, no worries, we will teach in this week how to detect and avoid such flaws. 
+Do you see the flaw in this example? If so, well done! You are already a good analyst of security protocols and my request for you is that you share the founded flaw with your colleagues. If not, no worries, this course is about detecting and avoiding flaws of this type. 
 
 ## Further reading
 

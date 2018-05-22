@@ -19,7 +19,7 @@ A graphical representation of this attack is as follows.
 
 It is tempting to think that the protocol above is silly and no serious company would make a similar mistake. But the reality is that security protocols, despite being computer programs of just a few lines of code, are remarkably hard to get right. Case in point: the hard-drive manufacturer Western Digital offers self-encrypting hard drives. This feature saves users the time and expense of using full-disk encryption software, such as BitLocker and TrueCrypt. The drives use 256-bit AES encryption with a default, factory set, key that is password protected. However, there exists a hardcode password in the device, which an adversary can use to obtain the AES encryption/decryption key.
 
-Does the flaw in the Western Digital drives sound familiar to you? Western Digital embedded a secret key in their drives, in the same way we embedded a public key in the message sent by the "Professor". In a sense, this is like hiding the key of our house below the doormat. 
+Does the flaw in the Western Digital drives sound familiar to you? Western Digital embedded a secret key in their drives, in the same way we embedded a public key in the message sent by the "Professor". In a sense, this is like hiding the key of our house below the doormat.
 
 ## Your task
 
