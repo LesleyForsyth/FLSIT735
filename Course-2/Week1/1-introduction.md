@@ -13,7 +13,7 @@ Another example. Suppose that I'm worried about my favorite student Paul, who is
 
 * m = "Dear Paul, it's me, your Professor of Communications Network Security. Would you please tell me the nature of the health issue you are having at the moment. Because this is super sensitive information and we want no one to know about it, I'm sending herein my public key, which you can use to encrypt your reply and be confident that only me can decrypt your message. My public is $pk_{Prof}$".  
 * Once Paul receive the message $m$, he writes back a message $m'$ explaining his health problems, encrypt it with the public key $pk_{Prof}$ contained in $m$, and the send $enc(m', pk_{Prof})$ back to me.
-* Finally, I received Paul's response $enc(m', pk_{Prof})$, which I can decrypt by using my own secret key $sk_{Prof}$. 
+* Finally, I receive Paul's response $enc(m', pk_{Prof})$, which I can decrypt by using my own secret key $sk_{Prof}$. 
 
 ## Your task
 
