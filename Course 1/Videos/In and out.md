@@ -31,6 +31,12 @@ Well done, you've made it through the first course.
 
 We started the course by looking at the basics of cryptography.  Cryptography is fundamental to network security and from the basis of industrial network security standards.  Throughout the course, you've learnt to send and receive secret messages to one-another in FutuerLearn and applied this to the way it's done in modern communication networks.
 
+We then got an overview of the structure of communications networks and the points at which it is vulnerable.  We looked at some of the ways that an attacker could exploit these vulnerabilities and cause harm to your organisation or the people who rely on it.
+
+Next week, we'll look at some of the most common network security protocols employed to protect communications networks.
+
+See you there.
+
 
 
 
