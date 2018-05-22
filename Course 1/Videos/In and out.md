@@ -25,6 +25,13 @@ In this course, you'll learn how to secure your communications networks against 
 Good luck, and I'll see you in the course.
 
 
+## Wrap up
+
+Well done, you've made it through the first course.
+
+We started the course by looking at the basics of cryptography.  Cryptography is fundamental to network security and from the basis of industrial network security standards.  Throughout the course, you've learnt to send and receive secret messages to one-another in FutuerLearn and applied this to the way it's done in modern communication networks.
+
+
 
 
 
