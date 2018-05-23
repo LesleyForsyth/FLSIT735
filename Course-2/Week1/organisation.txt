@@ -1,0 +1,35 @@
+Digital Certificate and Public-Private Keys PKI technologies.
+
+- Introduction: https://www.amatisnetworks.com/public-private-keys-explained/
+- https://blog.emsisoft.com/en/7647/what-is-a-digital-certificate/
+
+Integrity and hash functions
+
+- https://www.comparitech.com/blog/information-security/beginners-guide-ssl/
+
+Digital Certificates in practice 
+
+- https://letsencrypt.org/: Let’s Encrypt is a free, automated, and open Certificate Authority.
+
+Installing a digital certificate on a web server or network device
+
+
+SSL
+
+- https://www.techradar.com/news/software/how-ssl-and-tls-works-1047412
+- https://blog.hubspot.com/marketing/what-is-ssl
+- https://blog.talpor.com/2015/07/ssltls-certificates-beginners-tutorial/
+- http://www.robinhowlett.com/blog/2016/01/05/everything-you-ever-wanted-to-know-about-ssl-but-were-afraid-to-ask/
+- https://www.jscape.com/blog/ssl-vs-ssh-simplified
+
+SSL/TLS
+
+- https://www.acunetix.com/blog/articles/tls-security-what-is-tls-ssl-part-1/
+
+Comodoro Case:
+
+http://blog.escanav.com/2011/09/fraudulentcertificates/
+http://blog.escanav.com/2011/09/fraudulent-digital-certificates-part-deux/
+
+
+
