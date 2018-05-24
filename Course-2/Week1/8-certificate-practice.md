@@ -26,6 +26,7 @@ As we did in Week1, we are going to use OpenSSL to create cryptographic keys, en
 
 You may have noticed that during the process of creating a self-signed certificate we did not create a public key. That is because the `req` command generates a valid public key for us and stores it in the CSR. But, as you already in the task of the last step, the public key can be easily extracted from a certificate with the OpenSSL tool. 
 
-## Who create self-signed certificates?
+## Your task
 
-All operating systems, browsers and, of course, certification authorities themselves, create self-signed certificates. 
+All operating systems, browsers, mobile devices and, of course, certification authorities themselves, create self-signed certificates. Trusted self-signed certificates are commonly known as *root certificates*, because they are at the root of the hierarchy of trust between certification authorities. Your task is to find all root certificates installed at your operating system. 
+
