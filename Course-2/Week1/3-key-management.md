@@ -1,6 +1,6 @@
 # Key management
 
-Cryptography works under the assumption that the sender and te receiver share some secret key. 
+Cryptography works under the assumption that the sender and the receiver share some secret key. 
 
 It most be clear at this point that cryptography, although extremely strong and important, is by itself insufficient to secure your computer systems. One can use cryptography just in the wrong way, as in the bike example provided in the previous step, or fail to manage and storage cryptographic keys properly. 
 We will focus first on the second issue, that is, how to properly exchange and storage cryptographic keys. 
@@ -22,5 +22,5 @@ Not everyone is allowed to issue digital certificates, in the same way that not 
 
 ## Your task
 
-A software that makes heavy use of digital certificates is your web browser, being either Mozilla, Chrome, Opera, Zafari, etc. Your task is to go to the advanced settings of your browser and find the list of "Trusted Root Certification Authority". In Chrome, for example, this within the "manage certificates" section. Share with your colleagues the number of certificate issuers that your browser trust on. 
+A software that makes heavy use of digital certificates is your web browser, being either Mozilla, Chrome, Opera, Zafari, etc. Your task is to go to the advanced settings of your browser and find the list of "Trusted Root Certification Authority". In Chrome, for example, that list is within the "manage certificates" section. Share with your colleagues the number of certificate issuers that your browser trust on. 
 

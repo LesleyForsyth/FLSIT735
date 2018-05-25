@@ -1,6 +1,6 @@
 # Replay attacks
 
-Congratulations! You already know how to handle public cryptographic keys, and use them to exchange confidential messages securely. So it is time to move towards to more ambitious goals. 
+Congratulations! You already know how to handle public cryptographic keys, and use them to exchange confidential messages securely. So it is time to move towards more ambitious goals. 
 
 ## Continuous communication 
 
@@ -8,7 +8,7 @@ Most communication on the internet extends during a long period of time. You con
 
 When you create an exam for your students, don't you make sure that your exam is different to previous exams? Otherwise students can copy/paste verbatim answers from previous exams. This is a form of *plagiarism* in academia, and unsurprisingly a similar technique can be used to attack security protocols. 
 
-Case in point. Assume, in our running example, that the professor needs to ask a second time to Paul how he feels. It would be tempting to use the same protocol, but that protocol would be vulnerable to *plagiarism*, or *replay attack* as it is know in the security community. Essentially, an attacker would eavesdrop the first communication between the professor and Paul, keeping a record of Paul's message: $\{$$\{$Hi professor, this is my secret...$\}_{pk_{Prof}}$ $\}_{sk_{Paul}}$. Now, if the professor executes the protocol a second time to get an update on how Paul feels, the attacker may just *replay* the message previously obtained, making the professor believe that Paul health problems remain the same. 
+Case in point. Assume, in our running example, that the professor needs to ask a second time to Paul how he feels. It would be tempting to use the same protocol, but that protocol would be vulnerable to *plagiarism*, or *replay attack* as it is know in the security community. Essentially, an attacker would eavesdrop the first communication between the professor and Paul, keeping a record of Paul's message: $\{$$\{$Hi professor, this is my secret...$\}_{pk_{Prof}}$ $\}_{sk_{Paul}}$. Now, if the professor executes the protocol a second time to get an update on how Paul feels, the attacker may just *replay* the message previously obtained, making the professor believes that Paul health problems remain the same. 
 You can take a look at a graphical representation of this replay attack below. Note that, for the sake of simplicity, we have removed some details of the protocol, such as the certificate exchanges. 
 
 ![GitHub Logo](./images/msc-charts/replay-attack-protocol-with-certificate.jpg)

@@ -1,4 +1,4 @@
-# 
+# Using digital certificates
 
 It took us a few steps to learn how to correctly check that a public key does belong to the intended communication partner by means of a trusted third party or certification authority. Thus let us come back to our running example where a professor wants to communicate with one of his students, Paul. The broken protocol we proposed at the beginning of the week is the following. 
 

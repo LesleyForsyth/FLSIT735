@@ -8,7 +8,7 @@ All the above are authentication factors. The more authentication factors are ch
 
 A proper authentication factor, or a combination of various factors, ought to satisfy three main requirements: 
 
-* *Uniqueness*: no other person, entity, or process should share the same attribute values. Otherwise 
+* *Uniqueness*: no other person, entity, or process should share the same attribute values.  
 * *Forgery resistance*: it must be difficult to reproduce, otherwise the uniqueness property would be violated. 
 * *Verifiable*: this is a trivial functional requirement. 
 
@@ -30,6 +30,6 @@ The difference with respect to the previous version of the same protocol essenti
 
 # Your task
 
-It has taken quite a bit of effort, but we finally have our first secure communication protocol. You may wonder, how are we convinced that no other attack on this protocol exist? We are because we have checked this protocol with the formal verification tool Scyther: https://www.cs.ox.ac.uk/people/cas.cremers/scyther/index.html
+It has taken quite a bit of effort, but we finally have our first secure communication protocol. You may wonder, how are we convinced that this protocol does the job? We are because we have checked this protocol with the formal verification tool Scyther: https://www.cs.ox.ac.uk/people/cas.cremers/scyther/index.html
 
 Your task is to investigate and discuss the role of formal verification tools for security protocols. 

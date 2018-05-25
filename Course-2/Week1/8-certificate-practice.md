@@ -2,7 +2,7 @@
 
 Should certification authorities use certificates? If so, who sign their certificates?
 
-The answer to the first question is, yes. Certification authorities, as many other communicating entities on the internet, need to convey their own public keys to their clients. Hence the need of using certificates. However, while others rely on certification authorities to issue their certificates, who does issue the certificate of a certification authority? Well, themselves. You may think that this sounds like a bad idea, because everyone can create their own self-signed certificate. Let's do that, indeed. We will come back to this question after we create oue first self-signed certificate.
+The answer to the first question is, yes. Certification authorities, as many other communicating entities on the internet, need to convey their own public keys to their clients. Hence the need of using certificates. However, while others rely on certification authorities to issue their certificates, who does issue the certificate of a certification authority? Well, themselves. You may think that this sounds like a bad idea, because everyone can create their own self-signed certificate. Let's do that, indeed. We will come back to this question after we create our first self-signed certificate.
 
 ## Creating a self-signed certificate with OpenSSL
 
@@ -24,7 +24,7 @@ As we did in Week1, we are going to use OpenSSL to create cryptographic keys, en
     - `-out` as usual this sets the output file
     - `-days` sets the expiration date of the certificate within 365 days after its creation. As with our own passwords, certificates ought to be changed frequently. 
 
-You may have noticed that during the process of creating a self-signed certificate we did not create a public key. That is because the `req` command generates a valid public key for us and stores it in the CSR. But, as you already in the task of the last step, the public key can be easily extracted from a certificate with the OpenSSL tool. 
+You may have noticed that during the process of creating a self-signed certificate we did not create a public key. That is because the `req` command generates a valid public key for us and stores it in the CSR. But, as you already did in the task of the last step, the public key can be easily extracted from a certificate with the OpenSSL tool. 
 
 ## Your task
 
