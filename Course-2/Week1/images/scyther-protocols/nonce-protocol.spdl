@@ -1,0 +1,27 @@
+usertype String;
+
+const hello-paul: String;
+const hello-professor: String;
+
+protocol professor-paul-protocol(Prof,Paul)
+{
+	role Prof
+	{
+		fresh n: Nonce;
+		
+		send_1(Prof,Paul, (hello-paul, n));
+		recv_2(Paul,Prof, ({{hello-professor}pk(Prof)}sk(Paul), n));
+
+		claim(Prof,Niagree);
+	}	
+	
+	role Paul
+	{
+		var N: Nonce;
+		
+		recv_1(Prof,Paul, (hello-paul, N));
+		send_2(Paul,Prof, ({{hello-professor}pk(Prof)}sk(Paul), N));
+
+	}
+}
+

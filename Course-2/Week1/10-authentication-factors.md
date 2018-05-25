@@ -32,28 +32,4 @@ The difference with respect to the previous version of the same protocol essenti
 
 It has taken quite a bit of effort, but we finally have our first secure communication protocol. You may wonder, how are we convinced that no other attack on this protocol exist? We are because we have checked this protocol with the formal verification tool Scyther: https://www.cs.ox.ac.uk/people/cas.cremers/scyther/index.html
 
-Your task is to investigate and discuss the role of formal verification tools for security protocols. For those more advance, we encourage you to verify the protocol yourself by using the following Scyther source code.
-
-
-usertype String;
-
-const hello-paul: String;
-const hello-professor: String;
-
-protocol professor-paul-protocol(Prof,Paul)
-{
-	role Prof
-	{
-		send_1(Prof,Paul, hello-paul);
-		recv_2(Paul,Prof, {{hello-professor}pk(Prof)}sk(Paul));
-
-		claim(Prof,Niagree);
-	}	
-	
-	role Paul
-	{
-		recv_1(Prof,Paul, hello-paul);
-		send_2(Paul,Prof, {{hello-professor}pk(Prof)}sk(Paul));
-
-	}
-}
+Your task is to investigate and discuss the role of formal verification tools for security protocols. 

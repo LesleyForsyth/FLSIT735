@@ -1,0 +1,21 @@
+\documentclass{standalone}
+
+\usepackage{msc}
+\begin{document}
+
+\begin{msc}[small values, instance
+distance=7.6cm]{A protocol that makes use of nonces}
+
+\declinst{prof}{ }{Professor}
+\declinst{student}{}{Paul}
+
+\mess{I'm your professor, use this nonce: $n$}{prof}{student}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{$\{$$\{$Hi professor, this is my secret...$\}_{pk_{Prof}}, n$ 
+$\}_{sk_{Paul}}$}{student}{prof}
+\nextlevel
+\end{msc}
+
+\end{document}
