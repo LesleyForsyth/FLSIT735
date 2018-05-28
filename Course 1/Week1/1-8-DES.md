@@ -14,7 +14,7 @@ Assume you have a binary message $m$ of size $64$, i.e. $m \in \{0, 1\}^n$. If y
 ![GitHub Logo](./images/binary-conversion.png)
 <!--- (source: http://www.sciencefriday.com/wp-content/uploads/2015/08/UTF8-Table-7802.png) -->
 
-After two years of submission and evaluation of different ciphers, a candidate proposed by IBM and known as DES was deemed acceptable. DES consists of a sequence of scramble operations, one after the other, such as permutation, XOR, and a peculiar F-function **Elaborate more on this as people will wonder what an F-function**. We leave the details of the operations within DES to a crypto course. But we provide next a figure that depicts how a plaintext is transformed into a ciphertext by means of $16$ rounds of scramble operations. 
+After two years of submission and evaluation of different ciphers, a candidate proposed by IBM and known as DES was deemed acceptable. DES consists of a sequence of scramble operations, one after the other, such as permutation, XOR, and mapping. We leave the details of the operations within DES to a crypto course. But we provide next a figure that depicts how a plaintext is transformed into a ciphertext by means of $16$ rounds of scramble operations. 
 
 ![GitHub Logo](./images/DES.png)
 <!--- (source: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/DES-main-network.png/250px-DES-main-network.png) -->

@@ -13,7 +13,7 @@ AES benefited from 25 years of insights and research on DES. Thus its keys are n
 For a graphical representation of the sort of scramble that occurs within AES, look at figure below. Again, cryptographic design and cryptoanalysis is a vast area in itself, so we kindly refer you to a course in cryptography for more details.
 
 ![GitHub Logo](./images/AES.png)
-<!--- (source: https://upload.wikimedia.org/wikipedia/commons/c/cd/SubstitutionPermutationNetwork2.png) -->
+<!--- (source: http://www.moserware.com/assets/stick-figure-guide-to-advanced/aes_act_4_scene_17_crib_sheet_1100.png -->
  
 ## A note on block ciphers
 
@@ -28,3 +28,7 @@ Now, I'm going to give you a key and you will use it to send your name, as usual
 They key is the following: 4e 65 74 77 6f 72 6b 20 53 65 63 75 72 69 74 79
 
 Finally, you may notice that the key is given in Hexadecimal. But I can assure you that it is not random key, but a conversion of a few words to Hexadecimal. Can you spot what are the words hidden behind such Hexadecimal representation?
+
+## Further reading
+
+http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html

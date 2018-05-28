@@ -10,7 +10,7 @@ Now assume that, in order to perform regular backups, we connect two computers t
 
 Network security is meant to prevent and monitor unauthorised access, misuse, or modification of network-accessible resources. That is to say, network security is about ensuring that the information going through the network serves the purpose that it was designed for, even in the presence of attackers. Thus it concerns individuals, organisations, enterprises, and governments alike. 
 
-There are a variety of tasks and roles that a network security expert may perform in an organisation. For example, a network security expert can focus on:
+ Network security is actually a fundamental part of Information security, devoted to the protection of data and information systems against unauthorised or unintended access that can result in the loss, damage, modification and degrade of the information. There are a variety of tasks and roles that a network security expert may perform in an organisation. For example, a network security expert can focus on:
 
 * fundamentals of network security, such as data availability, confidentiality and integrity.
 * the use and maintenance of anomaly-detection technologies

@@ -18,8 +18,8 @@ The Spartans developed a clever trick to exchange confidential information writt
 The romans made the spartan technique more efficient by designing a substitution cipher whereby every letter in an original message is replaced by the letter that comes three positions later in the alphabet. The substitution is illustrated in the following below. For example, encrypting the text **futurelearn** results in **IXWXUHOHDUQ**. 
 
 
-| a | b | c | d | e | f | g | h | i | j | k | l | m |n | o | p | q | r | s | t | u | v | w | x | y | z| 
-|---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z| 
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 | D | E | F | G | H | I | J |K | L | M | N | O |P | Q | R | S | T | U | V | W | X | Y | Z | A | B | C |
 
 

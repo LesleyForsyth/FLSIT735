@@ -7,6 +7,10 @@ The Venona project shows that choosing *unpredictable* keys is of upmost importa
 
 The importance of good randomness in cryptography can be further explained by considering game of chances, which rely on random choices as well. An interesting case occurred in 1994, Canada. A casino lost $600,000 CAD to Daniel Corriveau in Keno. He picked 19 of the 20 winning numbers three times in a row, a very unlikely and rare event. Corriveau claims he used a computer to discern a pattern in the sequence of numbers. However, a formal investigation later showed that the sequence was easy to predict because the casino was using an inadequate electronic pseudorandom number generator.
 
+![GitHub Logo](./images/randomness.png)
+<!--- (source: https://cdn-images-1.medium.com/max/1600/1*Y2moeNdz1Gm5WFanlBo84A.png) -->
+
+
 ## Your task
 
 Find famous attacks based on weak implementations of pseudo-random number generators and share your thoughts. 

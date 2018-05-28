@@ -1,0 +1,34 @@
+\documentclass{standalone}
+
+\usepackage{msc}
+\begin{document}
+
+\begin{msc}[small values, instance
+distance=4cm]{A replay attack}
+
+\declinst{prof}{ }{Professor}
+\declinst{adv}{}{Adversary}
+\declinst{student}{}{Paul}
+
+\nextlevel
+\mess{I'm your professor, $n$
+}{prof}{student}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{$\{$$\{$Hi professor...$\}_{pk_{Prof}}$ 
+$\}_{sk_{Paul}}, n$}{student}{prof}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{I'm your professor, $n'$
+}{prof}{adv}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{$\{$$\{$Hi professor...$\}_{pk_{Prof}}$ 
+$\}_{sk_{Paul}}, n'$}{adv}{prof}
+\nextlevel
+\end{msc}
+
+\end{document}
