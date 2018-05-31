@@ -42,7 +42,7 @@ You may have noticed that during the process of creating a self-signed certifica
 
 ## Your task
 
-All operating systems, browsers, mobile devices and, of course, certification authorities themselves, create self-signed certificates. Trusted self-signed certificates are commonly known as *root certificates*, because they are at the root of the hierarchy of trust between certification authorities. Your task is to find all the root certificates installed at your operating system. 
+Earlier we asked whether you thought it was a good idea or not for a certificate authority to issue self-signed certificates.
 
-What did you notice?
+How would you respond to this question?
 
