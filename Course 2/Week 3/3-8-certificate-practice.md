@@ -32,11 +32,11 @@ To do so, execute: `openssl x509 -req -in certificate-request.csr -signkey priva
 
 Let's take a look at what we just did:
 
-    * x509` is an openssl command to manage X.509 certificates. X.509 is a standard that defines the format of public key certificates. Standardisation is important in IT, so we will explain X.509 certificates in more details later in this course.
-     *-req -in` indicates the input file containing our CSR
-    * `signkey` indicates the file with the private key we used to generate the CSR
-    * -out` as usual this sets the output file
-    * -days` sets the expiration date of the certificate within 365 days after its creation. As with our own passwords, certificates ought to be changed frequently. 
+    * x509 is an openssl command to manage X.509 certificates. X.509 is a standard that defines the format of public key certificates. Standardisation is important in IT, so we will explain X.509 certificates in more details later in this course.
+     *-req -in indicates the input file containing our CSR
+    * `signke` indicates the file with the private key we used to generate the CSR
+    * -out as usual this sets the output file
+    * -days sets the expiration date of the certificate within 365 days after its creation. As with our own passwords, certificates ought to be changed frequently. 
 
 You may have noticed that during the process of creating a self-signed certificate we did not create a public key. That is because the `req` command generates a valid public key for us and stores it in the CSR. However, the public key can be easily extracted from a certificate with the OpenSSL tool. 
 
