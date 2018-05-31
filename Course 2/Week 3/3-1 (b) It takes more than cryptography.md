@@ -1,6 +1,6 @@
-# Introduction to Week 3
+# It takes more than cryptography
 
-The problem with cryptography is that it is almost unbeatable.
+## The problem with cryptography is that it is almost unbeatable.
 
 Cryptographic keys are so hard to break that attackers tend to work around them.
 
