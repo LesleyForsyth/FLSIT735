@@ -5,15 +5,15 @@ To understand the flaw of the protocol used in the previous step to exchange con
 
 ![GitHub Logo](./images/msc-charts/flawed-protocol1.jpg)
 
-There are many flaws in this protocol, but we will focus on the most obvious one: how does Paul know that the received public key is the public key of his Professor? Obviously, the fact that message say so is not enough. This allows a trivial attack whereby an adversary sends exactly the same message to Paul with a minor modification. Instead of the Professor's public key, the attacker will provide his own public key to Paul. Paul's belief is that the message is coming from his Professor, and will use the key embedded in the message to send back his reply encrypted. However, it happens that the public key embedded in the message is the adversary's public key. Therefore, the adversary can easily decrypt Paul's message by using his own secret key. Confidentiality of the information is  lost!
+There are many flaws in this protocol, but we will focus on the most obvious one: how does Paul know that the public key he received is authentically the Professors? 
 
-A graphical representation of this attack is as follows.
+Obviously, the fact that the message say so is not enough. This would allow a trivial attack whereby an adversary sends exactly the same message to Paul with a minor modification. Instead of the Professor's public key, the attacker will provide his own public key to Paul. 
 
+If Paul believes that the message is coming from his Professor, he will use the key embedded in the message to send back an encrypted reply. However, what happens if the public key embedded in the message is from an adversary? If so, the adversary can easily decrypt Paul's message by using his own secret key. The information is no longer confidential.
+
+A graphical representation of this attack is as follows:
 
 ![GitHub Logo](./images/msc-charts/flawed-protocol1-attacked.jpg)
-
-
-
 
 ## A real-life example
 
@@ -23,9 +23,8 @@ Does the flaw in the Western Digital drives sound familiar to you? Western Digit
 
 ## Your task
 
-Reflect and discuss how you could improve the protocol between the professor and Paul in such a way that Paul's message remains confidential.
+How you could improve the protocol between the professor and Paul in such a way that Paul's message remains confidential?
 
 ## Further reading
 
-Read the original research paper "got HW crypto?
-On the (in)security of a Self-Encrypting Drive series" and comment on other security flaws in the Western Digital self-encrypting drives.
+Read the original research paper "[Got HW crypto? On the (in)security of a Self-Encrypting Drive series" and comment on other security flaws in the Western Digital self-encrypting drives](https://eprint.iacr.org/2015/1002.pdf).
