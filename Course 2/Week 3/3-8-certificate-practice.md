@@ -14,19 +14,23 @@ Let's have a go at that, then, and we'll come back to the question of whether or
 
 As we did in right back in the first week, we are going to use OpenSSL to create cryptographic keys, encrypt, decrypt, and also create certificates. 
 
-* Our first step is to create a private key, which we do by executing the command line `openssl genrsa -out private-key.pem 2048`
+1. Our first step is to create a private key, which we do by executing the command line `openssl genrsa -out private-key.pem 2048`
 
     - `genrsa` is a command used to RSA private keys
     - Recall that `-out` indicates the output file
 
-* Now we are going to create a Certificate Signing Request (CSR). The CSR contains our identifying information, our public key, and much more. Sending the CSR help us obtain a certifice from a Certificate Authority. As you may have guessed, such a request should be signed, etc. However, we don't need those details here. Just bare in mind that at the very least a CSR contains our identifying information and public key. 
+2. Now we are going to create a Certificate Signing Request (CSR). The CSR contains our identifying information, our public key, and much more. Sending the CSR help us obtain a certifice from a Certificate Authority. As you may have guessed, such a request should be signed, etc. However, we don't need those details here. Just bare in mind that at the very least a CSR contains our identifying information and public key. 
 
 We can create a CSR with OpenSSL by executing the following: `openssl req -new -key private-key.pem -out certificate-request.csr`
     - `req` is the openssl command that manages certificate requests
 
 * You will notice that the command req asks for additional information, such as your country, province, institution, etc. 
 
-* Finally, we sign our own certificate request with our private key.  This is why it's called a self-signed certificate. To do so execute: `openssl x509 -req -in certificate-request.csr -signkey private-key.pem -out my-first-certificate.crt -days 365`
+3. Finally, we sign our own certificate request with our private key.  This is why it's called a self-signed certificate. 
+
+To do so, execute: `openssl x509 -req -in certificate-request.csr -signkey private-key.pem -out my-first-certificate.crt -days 365`
+
+Let's take a look at what we just did:
 
     - `x509` is an openssl command to manage X.509 certificates. X.509 is a standard that defines the format of public key certificates. Standardisation is important in IT, so we will explain X.509 certificates in more details later in this course.
     - `-req -in` indicates the input file containing our CSR
