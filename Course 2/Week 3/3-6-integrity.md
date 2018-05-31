@@ -1,13 +1,13 @@
 At this point we are able to sign a message $$m$$ using our own private key $sk$. In this step we will take a closer look at the other end: how can we securely verify the signature provided by a certification authority?
 
-### Verification in theory - REVIEW
+### Verification in theory 
 
 The theoretical verification process is simple. A message $$m$$ is signed with a private key $$sk$$, resulting in the signature $$m' = enc(m, sk)$$. Given a public key $$pk$$, if $$m = dec(m', pk)$$ then we can verify that $$m$$ was signed by the owner of the public key $$pk$$. This means that for the signature verification process to work, the signer needs to distribute both the original and signed message. An illustration of this process is given in the figure below: "Bob" acts as the signatory. 
 
 ![image](./images/signature-verification.png)
 <!--- (source: https://www.cs.rit.edu/~ark/lectures/https02/signedmessage1.png) -->
 
-### Verification in practice - REVIEW
+### Verification in practice
 
 In practice, messages that need to be signed, like certificates or smart contracts, can be of arbitrary size. Because it is inefficient to encrypt large messages or files, signatures are usually applied over a *digest* of the message rather than on the message itself. In the same way we compress a file before sending it through email, digital signatures sign a *compressed* version of a message. 
 
@@ -22,9 +22,9 @@ The verification process changes slightly as well, as illustrated in the figure 
 ![GitHub Logo](./images/signature-hash.png)
 <!--- (source: https://i.stack.imgur.com/eW9UY.png) -->
 
-### Your task - REVIEW
+### Your task 
 
-Investigate the differences between compression functions and hash functions. 
+Investigate the differences between compression functions and hash functions. Let your fellow learners know what you have discovered.
 
 ### Further reading
 
