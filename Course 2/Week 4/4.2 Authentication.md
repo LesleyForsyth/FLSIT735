@@ -1,10 +1,10 @@
 # Authentication
 
-This is what you have learned throughout this week. 
+Let's take stock of what you've learnt so far this week.
 
-* Cryptography is not a panacea. It may solve the problem of protecting information from unauthorised access, but, it creates the problem of sharing and exchanging cryptographic keys in a secure way. 
-* There are three types of cryptographic keys, namely symmetric keys, public keys, and private keys. Private keys are private and should not be shared. All we need to do is to keep them (password-protected) in a safe place. Public keys need and can be shared securely by means of digital certificates. 
-* A digital certificate signed by a trusted certification authority can be considered a fairly good proof that we are going to use a correct public key.
+* Cryptography is not a panacea. It may solve the problem of protecting information from unauthorised access, but it creates the problem of sharing and exchanging cryptographic keys securely. 
+* There are three types of cryptographic keys: namely symmetric keys, public keys, and private keys. Private keys are private and should not be shared. All we need to do is to keep them (password-protected) in a safe place. Public keys need to be shared securely by using digital certificates. 
+* A digital certificate signed by a trusted certification authority should convince us that we are going to use a correct public key.
 
 And this is what you are going to learn in the remainder of this week.
 
