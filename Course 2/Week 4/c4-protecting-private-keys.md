@@ -1,5 +1,8 @@
 # Protecting private keys
 
+All operating systems, browsers, mobile devices and,of course, certification authorities themselves, create self-signed certificates. Trusted self-signed certificates are commonly known as *root certificates*, because they are at the root of the hierarchy of trust between certification authorities. 
+
+
 A lesson we learned from the previous step is that private keys are probably as valuable as the data encrypted with those keys. As such, non-authorized entities should have no access to our private keys. The question is: how can we make our private keys inaccessible to others and at the same time easily accessible to us?
 
 ## Storing a private key 
