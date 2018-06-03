@@ -13,23 +13,26 @@ Simply invoking SSL/TLS won't make your application more secure, in the same way
 
 The first electronic purchases started in the early 1990s. Of course, people had reservation about the transmission of credit card information through the internet, as man-in-the-middle attackers can be silently eavesdropping the network traffic. Software developers at Netscape communication therefore prosecuted the goal of establishing a secure communication over an insecure network. Their idea was to introduce an intermediate layer between the transport layer and the application layer, named *the secure sockets layer (SSL)*. 
 
-The first version of SSL was released in 1994. However it has a number of weaknesses as summarised below.
-
-
-
-Transition from SSL to TLS....
+The first version of SSL was released in 1994. However it had a number of weaknesses. So it evolved in three versions - SSL 1.0, SSL 2.0, and SSL 3.0. The current version of SSL is called *TLS 1.0* (Transport Layer Security). The change of name is due to standarisation procedures, so TLS is typically referred as SSL/TLS. 
 
 ## Roadmap 
 
+SSL/TLS seats in between the transport layer and application layer, allowing applications to use a secure connections on top of the existing network topology. Notice in the figure below that SSL/TLS consists of four main sub-protocols. 
 
-| Security goals        | Techniques
-| ------------- |:-------------:
-| Authentication  | Digital certificates are used to establish trust between communicating partners.|
-| Confidentiality | Encryption algorithms such as AES make sure that data is not visible to third parties. |
-| Secret key exchange  | Key-exchange algorithms, such as  Diffe-Hellman,  are used to established a session key. |
+1. *SSL handshake protocol:* allows the a client and server to identify each other and agree on the parameters for the connection, such encryption and decryption algorithms.  
+2. *SSL Change Cipher protocol:* confirms the cipher suite to be used.
+3. *SSL alert protocol:* signals problems with an SSL execution.
+4. *Application data protocol:* takes data from the application using SSL and sends it through the established secure channel. 
 
+![GitHub Logo](./images/ssl-stack.png)
+<!---
+(source: http://swrdfish.github.io/assets/ssl/ssl_stack.png)
+-->
 
+We will dedicate the remaining steps of this week to the study of those sub-protocols. 
 
+## Your task
 
+Discuss on the difference between UDP and TCP, and why SSL was originally designed over TCP only. 
 
 
