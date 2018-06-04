@@ -24,6 +24,12 @@ In the "client hello" message the client provides:
 + The data compression methods supported by the client. Data compression methods are used for faster transfer speeds and have no security role, so we will ignore this field.
 + And a session id, which is used to keep track of different executions of the same protocol
 
+To get an idea of the number of cryptographic algorithms a client and server may choose from, look at the following picture. The codes on the left side of the figure represent combinations of cryptographic primitives, such as encryption/decryption functions, hash functions, and MACs. 
+
+![GitHub Logo](./images/ciphers.gif)
+<!---
+(source: https://www.ibm.com/support/knowledgecenter/en/ssw_i5_54/rzatz/51/sec/rzaiz599.gif)
+-->
 
 Upon reception of the "client hello" message, the  server chooses, amongst the options sent by the client, the SSL/TLS version, algorithms and parameters to be used for the remainder of the protocol. These options are sent within a "server hello" message, which also contains contains a digital certificate for the purpose you already know, and a nonce whose role was explained in the previous step.
 
