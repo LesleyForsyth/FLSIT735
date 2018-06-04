@@ -8,7 +8,7 @@ Because we need our networks to run fast, public key encryption is used as littl
 
 ## Transitioning from a asymmetric to symmetric cryptography
 
-You may be thinking, if I trust already my communicating partner, all I need is a secret shared key with which to continue a secure communication by means of a symmetric cipher like AES. That's exactly the goal of cryptographic protocols known as *key exchange protocols*. 
+You may be thinking, if I trust already my communicating partner, all I need is a secret shared key with which to continue a secure communication by means of a symmetric cipher like AES. That's exactly the goal of cryptographic protocols known as *key exchange protocols*, and that's what SSL/TLS does.
 
 Let's take a look at a standard example where a web browser connects to a server, such as Amazon. First, the browser needs to make sure that it is going to use the correct public key of Amazon's web server. For that, the browser requests an Amazon's certificate and verify it upon reception. Until this point we haven't done anything different to the last week exercises, except that the name of the communicating entities are different. 
 

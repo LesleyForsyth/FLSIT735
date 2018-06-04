@@ -10,7 +10,7 @@ We have seen in this course two types of cryptographic algorithms: symmetric and
 
 Let's recall the main functional requirement of asymmetric encryption as stated in Week 1. 
 
-* $$dec(enc(m, pk), sk)$$ where $$m$$ is a message. That is to say, any message $$m$$ encrypted with the public key can be decrypted with the corresponding private key. 
+* $$m = dec(enc(m, pk), sk)$$ where $$m$$ is a message. That is to say, any message $$m$$ encrypted with the public key can be decrypted with the corresponding private key. 
 
 It happens that the inverse process also works, which is:
 
