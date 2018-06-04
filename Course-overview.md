@@ -1,6 +1,5 @@
 | Week | Topic |
 |---|---|
-
 | 1 | An introduction to cryptography |
 | 2 | IP/TCP and its vulnerabilities |
 | 3 | Digital certification |
