@@ -18,4 +18,4 @@ Hardware used to store key material most follow security standards, such as the 
 
 # Your task
 
-As an individual, just as in an organisation,  we shouldr protect our keys with a strong password. Your task this time is to use openssl to generate and store a password protected RSA key. 
+As an individual, just as in an organisation,  we should protect our keys with a strong password. Your task this time is to use openssl to generate and store a password protected RSA key. 
