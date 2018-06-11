@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{msc}
+\begin{document}
+
+\begin{msc}[small values, instance
+distance=7.6cm]{An attack}
+
+\declinst{adv}{ }{Adversary}
+\declinst{student}{}{Paul}
+
+\mess{$\{$I'm your professor, use this key: $pk_{Adv}$ 
+$\}_{pk_{Paul}}$}{adv}{student}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{$\{$Hi professor, this is my secret...$\}_{pk_{Adv}}$}{student}{adv}
+\nextlevel
+\end{msc}
+
+\end{document}

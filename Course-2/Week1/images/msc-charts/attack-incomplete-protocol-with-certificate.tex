@@ -1,0 +1,24 @@
+\documentclass{standalone}
+
+\usepackage{msc}
+\begin{document}
+
+\begin{msc}[small values, instance
+distance=7.6cm]{A protocol that makes use of certificates}
+
+\declinst{prof}{ }{Professor}
+\declinst{adv}{}{Adversary}
+
+\mess{I'm your professor, use this certificate: $Cert_{Prof}$ 
+}{prof}{adv}
+\nextlevel
+\action*{Extract $pk_{Prof}$ from $Cert_{Prof}$}{adv}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{$\{$Hi professor, it's Paul, believe on 
+this...$\}_{pk_{Prof}}$}{adv}{prof}
+\nextlevel
+\end{msc}
+
+\end{document}

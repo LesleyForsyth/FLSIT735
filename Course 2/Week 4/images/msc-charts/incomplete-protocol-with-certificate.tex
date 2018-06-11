@@ -1,0 +1,27 @@
+\documentclass{standalone}
+
+\usepackage{msc}
+\begin{document}
+
+\begin{msc}[small values, instance
+distance=7.6cm]{A protocol that makes use of certificates}
+
+\declinst{prof}{ }{Professor}
+\declinst{student}{}{Paul}
+
+\mess{I'm your professor, use this certificate: $Cert_{Prof}$ 
+}{prof}{student}
+\nextlevel
+\action*{Check signature of $Cert_{Prof}$}{student}
+\nextlevel
+\nextlevel
+\nextlevel
+\action*{Extract $pk_{Prof}$ from $Cert_{Prof}$}{student}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{$\{$Hi professor, this is my secret...$\}_{pk_{Prof}}$}{student}{prof}
+\nextlevel
+\end{msc}
+
+\end{document}
