@@ -10,7 +10,7 @@
 
 In this demonstration we are going to use the Scyther tool ([see installation instruction](https://www.cs.ox.ac.uk/people/cas.cremers/scyther/install-generic.html)). This tool was developed at the University of Luxembourg and it is currently maintained by Prof. Cas Cremer at the University of Oxford. Scyther has been used to analyse various security standards, such as the IKEv1 and IKEv2 protocol suites and the ISO/IEC 9798 family of authentication protocols. 
 
-We have developed the code for you the protocol we asked you to analyse in the previous task. The source code in Scyther looks as follows.
+For the protocol we asked you to analyse in the previous task, we have developed the Scyther source code for you. The source code in Scyther looks as follows.
 
 ```
 usertype String;

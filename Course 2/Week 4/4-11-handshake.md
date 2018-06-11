@@ -1,6 +1,6 @@
 # Handshake protocol
 
-For the sake of **exposition - Rolando is this the word you really mean?** we have deliberately omitted not a few details in the protocols shown in previous steps, we are going to remedy this in this step. 
+For simplicity we have deliberately omitted not a few details in the protocols shown in previous steps, we are going to remedy this in this step. 
 
 Something that you will encounter in your career in Information Technology  is the burden of dealing with different versions of software, protocols, ciphers, etc. If you ever travel to another country, chances are that you may face a number of different languages. So you will probably need to start your conversations with others by asking 'do you speak X?' X might be English, Spanish, Chinese, Hindi, etc. This is known in communication protocols as a *negotiation phase* or *handshake* in SSL/TLS. 
 

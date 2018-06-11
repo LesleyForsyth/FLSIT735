@@ -36,8 +36,8 @@ SSL/TLS sits in between the transport layer and application layer, allowing appl
 
 We will dedicate the remaining steps of this week to the study of these sub-protocols. 
 
-### Your task - Review (Rolando, they don't know enough about UDP to answer this question)
+### Your task 
 
-Discuss on the difference between UDP and TCP, and why SSL was originally designed over TCP only. 
+Investigate how many websites currently use SSL/TLS.
 
 

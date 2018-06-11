@@ -2,7 +2,7 @@
 
 Authentication can be achieved in a number of ways.
 
- Passports, identity cards, driver's licenses, access cards, etc., are tokens we use for authentication every day. Other methods are more subtle, such as facial recognition  or voice recognition over the phone. It is a scientific fact that mom's voice activates different regions in children's brains, indicating that newborns may identify their mons by just listening **Rolando - reference please.** Handwriting patterns can be used in court as evidence of document ownership. And so on.
+ Passports, identity cards, driver's licenses, access cards, etc., are tokens we use for authentication every day. Other methods are more subtle, such as facial recognition  or voice recognition over the phone. It is a scientific fact that mom's voice activates different regions in children's brains, indicating that newborns may identify their mons by just listening (Abrams et al. 2016). Handwriting patterns can be used in court as evidence of document ownership. And so on.
 
 All the above are authentication factors. The more authentication factors are checked the more assured we can feel that someone is who they say they are, or represent who they claim to. How many of you would accept a passport or a driving license as a proof of identity without looking for a match between the passport's photo and their face? 
 
@@ -23,7 +23,7 @@ different keys to choose from.
 
 3. It is possible to verify that someone holds a secret key without revealing the key. A digital signature in a certificate is an example of such a verification.   You might remember another example from the challenge we investigated in the very first week: If we have  a  secret $$m$$, encrypt it $$m' = enc(m, pk)$$ with the public key $$pk$$, publish the ciphered text $$m'$$, and challenge everyone to reveal the secret $$m$$. Only the person holding the correct secret key can decrypt $$m'$$.
 
-The three reasons we've just listed show you why a good secret key satisfies the requirements of propoer authentication.  We can say with confidence that a secret cryptographic key is *the* authentication factor used in most computer systems today. 
+The three reasons we've just listed show you why a good secret key satisfies the requirements of proper authentication.  We can say with confidence that a secret cryptographic key is *the* authentication factor used in most computer systems today. 
 
 ## Adding authentication to communication protocol
 
@@ -38,3 +38,9 @@ The difference with respect to the previous version of the same protocol essenti
 It has taken quite a bit of effort, but we finally have our first secure communication protocol. You may wonder, how are we convinced that this protocol does the job? We are because we have checked this protocol with the formal verification tool [Scyther](https://www.cs.ox.ac.uk/people/cas.cremers/scyther/index.html).
 
 What do you think the role of verification tools like Scyther might be in communications network security?
+
+
+###### Reference:
+
+###### Abrams at al. 2016, _Neural circuits underlying mother’s voice perception predict social communication abilities in children_, Proceedings of the National Academy of Sciences of the United of States of America.
+

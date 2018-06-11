@@ -2,7 +2,7 @@
 
 It's good to see you again.
 
-You may be tired of hearing by now how important it is to know our enemy.  But, when you think about it, every cryptographic technique and every security protocol we've discussed so far has been put in place to thrawt the man in the middle attacker.  The reason the 'man in the middle' (who, obviously but necessary to say, is not always a man) is so insidious is that we trust them precisely _because_ they pretend to be someone or something that they are not.
+You may be tired of hearing by now how important it is to know our enemy.  But, when you think about it, every cryptographic technique and every security protocol we've discussed so far has been put in place to thwart the man in the middle attacker.  The reason the 'man in the middle' (who, obviously but necessary to say, is not always a man) is so insidious is that we trust them precisely _because_ they pretend to be someone or something that they are not.
 
 This week, we're going to dive right into the heart of the question of identity by taking a close look at *security protocols.* 
 

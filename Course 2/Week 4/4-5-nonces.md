@@ -12,7 +12,7 @@ Instead, a hash function is applied over every password. For example, instead of
 
 Because you have been doing your homework, you probably know that hash functions are hard to reverse. Thus a hacker with access to the password file of a operating system won't be able to obtain the original passwords easily. As written in the famous book "The Cuckoo’s Egg: Tracking a Spy Through the Maze of Computer Espionage": "..there's no way to reconstruct the avocado from the guacamole..." (Stoll 1989)
 
-However, hackers don't need to reverse a hash function in order to guess the password that has been hashed. Instead, they cam compute the hash of all words in a *dictionary.* If one of the words match up to the password, then it's been cracked. This technique is known as *dictionary attack* and still works. 
+However, hackers don't need to reverse a hash function in order to guess the password that has been hashed. Instead, they can compute the hash of all words in a *dictionary.* If one of the words match up to the password, then it's been cracked. This technique is known as *dictionary attack* and still works. 
 
 But we can make the life of hackers harder by adding a nonce to our passwords, known as a *salt*. Instead of hashing the word "password", we would hash the word "password+E1F53135E559C253" where E1F53135E559C253 is a nonce. Doing so, we force the hacker's dictionary to include each potential salt, which can be arbitrarily large. 
 

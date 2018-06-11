@@ -24,7 +24,7 @@ Protecting against replay tends to be "simple". In the same way exam questions s
 
 Your task for this step is twofold: 
 
-1. The simple one is to discuss what sources of *uniqueness* you have seen in this course sp far. 
+1. The simple one is to discuss what sources of *uniqueness* you have seen in this course so far. 
 2. The less simple is to [investigate the impact of replay attacks](https://news.bitcoin.com/bitcoin-software-wars-the-case-against-replay-attack-protection/) in a hot technology like bitcoin. 
 
 
