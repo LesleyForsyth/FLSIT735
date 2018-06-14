@@ -4,11 +4,11 @@ Hello, and welcome to Communications Network Security.
 
 I'm your lead educator, Rolando Trujillo.
 
-In this course we ask the big question: 'how can we protect out communications networks from attack?'
+If you are in this course is because you aim at becoming a Cyber security expert. That is, you would like to protect data and information systems against unauthorised or unintended access. This course will put you one step further on that goal, as you will learn how data can be protected when in transit. 
 
-What can happen when a computer network is hacked?
+The big question we will address is: 'how can we protect our communications in the digital era?'
 
-In 2009, a hacker was sentenced to 20 years in jail after he managed to steal credit card details from 90 million people.  According to court documents, the communications network attack had cost companies over $200 million.
+In 2009, a hacker was sentenced to 20 years in jail after he managed to steal credit card details from 90 million people.  According to court documents, the attack had cost companies over $200 million.
 
 In 2014, celebrities were involved in a targetted hack of Apple iCloud.  The attackers later published highly personal and sensitive photographs of their victims without their consent.
 
@@ -21,7 +21,7 @@ In this course, we'll explore the funadmentals behind making sure your network r
 By the end of the course, you will be able to:
 
 * Describe approaches to computer security including access control, identity verification and authentication in order to minimise cyber attacks on a system.
-* Compare and contrast different types of cryptography including current cryptographic algorithms and their applications. 
+* Understand different types of security and privacy goals and their applications. 
 * Apply principles of public key cryptography to achieve secure communication networks by using digital certificates and digital signatures in compliance with industry standards, and
 * Justify the use of cryptographic schemes on networked infrastructures to prevent the misuse of technology.
 

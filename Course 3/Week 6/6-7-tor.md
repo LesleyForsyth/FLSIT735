@@ -30,4 +30,4 @@ I'm sure you already got the idea. The technique of onion encryption allows you 
 
 ## Your task
 
-There is large debate on whether Tor should or not be used. Please join the debate and discuss how Tor can be used for good and bad. 
+What would happen to the Client's anonymity if Router A, B, and C, are dishonest? Discuss problems and potential solutions.
