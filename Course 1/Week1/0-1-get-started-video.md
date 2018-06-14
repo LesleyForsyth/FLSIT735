@@ -13,7 +13,7 @@ vulnerable to cyberattacks, whose scale and impact tend to increase with the siz
 In this unit, we'll explore how to implement protocols to secure your communications network from attacks. Over the course of the unit, you will:
 
 * Describe approaches to computer security including access control, identity verification and authentication in order to minimise cyber attacks on a system.
-* Compare and contrast different types of cryptography including current cryptographic algorithms and their applications. 
+* Understand different types of security and privacy goals and their applications. 
 * Apply principles of public key cryptography to achieve secure communication networks by using digital certificates and digital signatures in compliance with industry standards
 * Justify the use of cryptographic schemes on networked infrastructures to prevent the misuse of technology.
 
