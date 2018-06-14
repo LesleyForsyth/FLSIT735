@@ -4,7 +4,7 @@ Each runner should be able to open his and only his envelope. That's the main se
 
 ## Boxes within boxes
 
-Imagine that we have a message "DATA" that we want to send to Alice (See picture below). Alice has a red secure box, so we put the message inside Alice's box. But, we need to send the message through Bob, and Bob has a purple secure box. So we put Alice's red secure box inside Bob's purple secure box. This is not the end, Bob says the receives messages from Charley only. Hence we put everything insider Charley's cyan secure box. 
+Imagine that we have a message "DATA" that we want to send to Alice (See picture below). Alice has a red secure box, so we put the message inside Alice's box. But, we need to send the message through Bob, and Bob has a purple secure box. So we put Alice's red secure box inside Bob's purple secure box. This is not the end, Bob says he receives messages from Charley only. Hence we put everything insider Charley's cyan secure box. 
 
 ![GitHub Logo](./images/onion-encryption.jpg)
 <!---
@@ -20,5 +20,5 @@ The process above can be mimic with encryption. If we encrypt the message "DATA"
 
 ## Your task
 
-You may have notice that Charley has been ignored in the formulation of onion encryption. Your task is to extend the example above to three players, Alice, Bob, and Charley.
+You may have notice that Charley has been ignored in the formulation of onion encryption. Your task is to extend the onion-cryptography example above to three players, Alice, Bob, and Charley.
 
